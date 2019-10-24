@@ -1,0 +1,68 @@
+Language model created by QuickLM on Thu Oct 24 06:36:07 EDT 2019
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 1 sentences and 16 words
+
+\data\
+ngram 1=16
+ngram 2=15
+ngram 3=14
+
+\1-grams:
+-1.5051 11:30AM -0.2872
+-1.5051 30TH -0.2872
+-1.5051 </s> -0.3010
+-1.5051 <s> -0.2872
+-1.5051 ALL -0.2872
+-1.5051 AT -0.2872
+-1.5051 CLASSES -0.2872
+-1.5051 MIIS -0.2872
+-1.5051 MONDAY -0.2872
+-1.5051 OF -0.2872
+-1.5051 RIGHT. -0.2872
+-1.5051 SEPTEMBER, -0.2872
+-1.5051 START -0.2872
+-1.5051 THE -0.2872
+-1.5051 YOU -0.2872
+-1.5051 YOUR -0.2872
+
+\2-grams:
+-0.3010 11:30AM </s> -0.3010
+-0.3010 30TH OF 0.0000
+-0.3010 <s> ALL 0.0000
+-0.3010 ALL RIGHT. 0.0000
+-0.3010 AT 11:30AM 0.0000
+-0.3010 CLASSES MONDAY 0.0000
+-0.3010 MIIS CLASSES 0.0000
+-0.3010 MONDAY THE 0.0000
+-0.3010 OF SEPTEMBER, 0.0000
+-0.3010 RIGHT. YOU 0.0000
+-0.3010 SEPTEMBER, AT 0.0000
+-0.3010 START YOUR 0.0000
+-0.3010 THE 30TH 0.0000
+-0.3010 YOU START 0.0000
+-0.3010 YOUR MIIS 0.0000
+
+\3-grams:
+-0.3010 30TH OF SEPTEMBER,
+-0.3010 <s> ALL RIGHT.
+-0.3010 ALL RIGHT. YOU
+-0.3010 AT 11:30AM </s>
+-0.3010 CLASSES MONDAY THE
+-0.3010 MIIS CLASSES MONDAY
+-0.3010 MONDAY THE 30TH
+-0.3010 OF SEPTEMBER, AT
+-0.3010 RIGHT. YOU START
+-0.3010 SEPTEMBER, AT 11:30AM
+-0.3010 START YOUR MIIS
+-0.3010 THE 30TH OF
+-0.3010 YOU START YOUR
+-0.3010 YOUR MIIS CLASSES
+
+\end\
